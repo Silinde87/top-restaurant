@@ -1,5 +1,4 @@
 //RENDER HEADER
-
 import { $content } from "../index";
 import { createHtmlElement } from "../functions/tools";
 
@@ -17,4 +16,4 @@ function renderHeader() {
     $content.appendChild(navElem);
 }
 
-export { renderHeader as renderHeader};
+export { renderHeader };
