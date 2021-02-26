@@ -1,0 +1,20 @@
+/* COMMON STYLES AND VARIABLES */
+html, #content, body{
+    margin: 0px;
+    height: 100vh;
+    padding: 0px;    
+}
+
+#content{
+    display: flex;
+    flex-flow: column
+}
+
+:root{
+    --blue-color: #C6E4E5;
+    --red-color: #DBA4AB;
+    --pink-color: #F1C5D4;
+    --brown-color: #B9A5A0;
+    --beige-color: #FDF0E7;
+    --yellow-color: #F9EFD7;
+}
