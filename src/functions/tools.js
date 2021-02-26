@@ -1,6 +1,6 @@
 //COMMON ASSIST FUNCTIONS
 
-//When called, created a html element with id, and/or classes and/or content.
+//When called, creat an html element with id, and/or classes and/or content.
 function createHtmlElement(type, id, arrayClasses, content) {
     const element = document.createElement(type);
     if (id) element.id = id;
