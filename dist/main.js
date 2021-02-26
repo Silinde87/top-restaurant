@@ -1,1 +1,1 @@
-console.log("test");
+(()=>{"use strict";var e={d:(t,n)=>{for(var o in n)e.o(n,o)&&!e.o(t,o)&&Object.defineProperty(t,o,{enumerable:!0,get:n[o]})},o:(e,t)=>Object.prototype.hasOwnProperty.call(e,t)};e.d({},{b:()=>t});const t=document.querySelector("#content");console.log("test3"),function(){const e=document.createElement("ul");["Home","Menu","About"].forEach((t=>{e.appendChild(function(e,t,n,o){const c=document.createElement("li");return o&&(c.innerText=o),c}(0,0,0,t))}));const n=document.createElement("nav");n.appendChild(e),t.appendChild(n)}()})();
