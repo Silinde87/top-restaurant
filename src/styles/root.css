@@ -1,4 +1,7 @@
 /* COMMON STYLES AND VARIABLES */
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
 html, #content, body{
     margin: 0px;
     height: 100vh;
@@ -10,6 +13,10 @@ html, #content, body{
     flex-flow: column
 }
 
+#main-elem{
+    flex: 1 1 auto;
+}
+
 :root{
     --blue-color: #C6E4E5;
     --red-color: #DBA4AB;
@@ -17,4 +24,6 @@ html, #content, body{
     --brown-color: #B9A5A0;
     --beige-color: #FDF0E7;
     --yellow-color: #F9EFD7;
+    --footer-font: 'Roboto', sans-serif;
+    --main-font: 'Carter One', cursive;
 }

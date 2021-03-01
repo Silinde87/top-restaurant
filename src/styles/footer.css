@@ -12,6 +12,7 @@
     align-items: center;
     background-color: var(--red-color);
     border-top: 7px solid var(--brown-color);
+    font-family: var(--footer-font);
 }
 .fab{
     margin-left: 10px;

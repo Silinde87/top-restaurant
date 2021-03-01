@@ -1,5 +1,4 @@
 /* MENU STYLES */
-@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
 
 /*Common Alignements*/
 .menu,
@@ -10,8 +9,7 @@
     align-items: center;
 }
 
-.menu{
-    height: 100%;
+.menu{    
     background-color: var(--yellow-color);
 }
 #menu-container{
@@ -25,7 +23,7 @@
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    font-family: 'Carter One', cursive;
+    font-family: var(--main-font);
     text-align: center;
 }
 .name-menu-item{
@@ -33,6 +31,24 @@
     font-size: 20px;
 }
 .description-menu-item{
+    font-family: var(--footer-font);
     font-size: 13px;
-    margin-top: -35px;
+    margin-top: -35px;        
+}
+
+@media (min-width: 1920px){
+    #menu-container{
+        width: 1200px;
+    }
+    .menu-item{
+        width: 325px;
+        height: 357px;
+    }
+    .name-menu-item{
+        font-size: 25px;
+    }
+    .description-menu-item{
+        font-size: 20px;
+        margin-top: -35px;
+    }
 }
