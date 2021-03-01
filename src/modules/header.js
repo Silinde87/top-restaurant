@@ -8,7 +8,7 @@ function renderHeader() {
     const ulElem = document.createElement("ul");
 
     headerElem.forEach((elem) => {
-        ulElem.appendChild(createHtmlElement("li", null, null, elem));
+        ulElem.appendChild(createHtmlElement("li", null, ["nav-items"], elem));
     });
 
     const navElem = createHtmlElement("nav", "nav-menu", ["chess"], null);

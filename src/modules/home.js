@@ -4,7 +4,7 @@ import { $content } from "../index";
 import { createHtmlElement } from "../functions/tools";
 
 function renderHome() {
-    const homeElem = createHtmlElement("section", null, ["home"], null);
+    const homeElem = createHtmlElement("section", "main-elem", ["home"], null);
 
     $content.appendChild(homeElem); 
         
