@@ -9,7 +9,8 @@ const $content = document.querySelector("#content");
 
 //First load render.
 renderHeader();
-renderHome();
+//renderHome();
+renderMenu();
 renderFooter();
 
 //Adds events to nav items.
