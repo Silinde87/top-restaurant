@@ -1,3 +1,6 @@
+require('bootstrap');
+require('bootstrap/dist/css/bootstrap.css');
+
 import css from "./styles/root.css";
 import { renderHeader } from "./modules/header";
 import { renderHome } from "./modules/home";
