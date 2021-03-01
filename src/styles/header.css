@@ -1,8 +1,7 @@
 /* HEADER STYLES */
 #nav-menu{
-    height: 120px;
-    flex: 0 1 auto;
-    border-bottom: 5px solid var(--brown-color);
+    height: 106px;
+    border-bottom: 7px solid var(--brown-color);
 }
 #nav-menu > ul {
     color: red;

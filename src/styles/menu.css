@@ -1,0 +1,38 @@
+/* MENU STYLES */
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+/*Common Alignements*/
+.menu,
+#menu-container,
+.menu-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    height: 100%;
+    background-color: var(--yellow-color);
+}
+#menu-container{
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu-item{
+    width: 250px;
+    height: 275px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Carter One', cursive;
+    text-align: center;
+}
+.name-menu-item{
+    font-weight: 900;
+    font-size: 20px;
+}
+.description-menu-item{
+    font-size: 13px;
+    margin-top: -35px;
+}

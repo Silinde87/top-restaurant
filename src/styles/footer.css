@@ -1,18 +1,17 @@
 /* FOOTER STYLES */
 .footer{
-    position: absolute;
+    position: sticky;
     bottom: 0;
     left: 0;
     width: 100%;
     padding: 5px 0px;
     font-size: 20px;
     text-decoration: none;
-    flex: 0 1 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--red-color);
-    border-top: 5px solid var(--brown-color);
+    border-top: 7px solid var(--brown-color);
 }
 .fab{
     margin-left: 10px;

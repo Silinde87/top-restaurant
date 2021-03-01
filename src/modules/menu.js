@@ -1,4 +1,5 @@
 //RENDER MAIN MENU PAGE
+import css from "../styles/menu.css";
 import { $content } from "../index";
 import { createHtmlElement } from "../functions/tools";
 

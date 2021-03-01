@@ -1,6 +1,5 @@
 /* HOME STYLES */
 .home{
-    /*background-color: rgb(249, 239, 215);*/
     background-color: var(--yellow-color);
-    flex: 1 1 auto;
+    height: 100%;
 }
