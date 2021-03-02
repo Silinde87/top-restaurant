@@ -1,0 +1,124 @@
+/* ABOUT STYLES */
+
+/*Common Alignements*/
+.about,
+#form-book-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    background-color: var(--yellow-color);
+}
+
+#about-container{    
+    width: 900px;
+    height: 600px;
+    border: 5px solid var(--blue-color);
+    border-radius: 10px;
+    background-color: var(--red-color);
+    opacity: 0.9;
+    display: flex;
+    margin: 20px 10px 10px 10px;  
+}
+
+#form-book-table{
+    height: 50%;
+    margin: 20px;
+}
+#form-book-table{
+    display: flex;
+    flex-direction: column;
+}
+.col{
+    padding: 0px 5px;
+}
+.row{
+    width: 100%;
+}
+.label-form{
+    font-family: var(--footer-font);
+    font-size: 20px;
+    margin: 0;
+}
+input{
+    margin: 10px 0px;
+    padding: 6px 6px !important;
+}
+#form-book-btn{
+    background-color: var(--blue-color);
+    border: none;
+    border-radius: 3px;
+    font-family: var(--footer-font);
+    font-size: 20px;
+    margin: 8px;
+    padding: 5px 20px;
+    box-shadow: 5px 5px 1px var(--brown-color);
+    transition: all 0.1s ease-in-out;
+}
+#form-book-btn:active{
+    box-shadow: none;
+    transform: translate(5px, 5px);
+}
+#form-book-btn:hover{
+    opacity: 0.8;
+}
+.info-element{
+    width: 80%;
+    margin: auto;
+    background-color: var(--yellow-color);
+    opacity: 0.8;
+    padding-top: 16px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.info-icon-elem{
+    font-size: 35px;
+    margin-top: 10px;
+}
+.info-text-elem{
+    font-family: var(--footer-font);
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+#form-container,
+#map-container{
+    width: 50%;
+    margin: 5px;
+}
+
+#gmap{
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 950px) {
+    .info-text-elem{
+        font-size: 26px;
+    }
+}
+@media (max-width: 850px) {
+    .info-text-elem{
+        font-size: 23px;
+    }
+}
+@media (max-width: 750px) {
+    .info-text-elem{
+        font-size: 18px;
+    }
+}
+@media (max-width: 600px) {
+    .info-text-elem{
+        font-size: 14px;
+    }
+}
+@media (max-width: 500px) {
+    .info-text-elem{
+        font-size: 12px;
+    }
+}

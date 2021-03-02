@@ -20,7 +20,7 @@ function renderHome() {
   const locationLogo = createHtmlElement("i", null, ["fas", "fa-map-marker-alt", "info-icon"], null);
   const locationText = createHtmlElement("p", null, ["info-text"],"Carrer de Muntaner, 55, 08011 Barcelona");
   const scheduleLogo = createHtmlElement("i", null, ["far", "fa-clock", "info-icon"], null);
-  const scheduleText = createHtmlElement("p", null, ["info-text"], "Mon-Thurs:8am-8pm Fri-Sun:8am-11pm");
+  const scheduleText = createHtmlElement("p", null, ["info-text"], "Mon-Thurs:8am-11pm Fri-Sun:8am-11pm");
 
   
   locationElem.appendChild(locationLogo);
