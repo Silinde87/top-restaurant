@@ -1,6 +1,3 @@
-require('bootstrap');
-require('bootstrap/dist/css/bootstrap.css');
-
 import css from "./styles/root.css";
 import { renderHeader } from "./modules/header";
 import { renderHome } from "./modules/home";
@@ -12,8 +9,7 @@ const $content = document.querySelector("#content");
 
 //First load render.
 renderHeader();
-//renderHome();
-renderMenu();
+renderHome();
 renderFooter();
 
 //Adds events to nav items.

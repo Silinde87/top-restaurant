@@ -1,5 +1,70 @@
 /* HOME STYLES */
+
+/*Common Alignements*/
+.home,
+#home-container,
+#info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .home{
     background-color: var(--yellow-color);
     height: 100%;
+}
+#home-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 10px 10px;
+}
+/* Carousel */
+#home-photos-carr{
+    max-width: 900px;    
+}
+.d-block{
+    border-radius: 10px;
+}
+
+/* Info */
+#info-container{
+    max-width: 600px;    
+    margin: 15px 10px 10px 10px;
+    padding: 20px 20px 10px 20px;
+    padding-bottom: 0;
+    border: 5px solid var(--blue-color);
+    border-radius: 10px;
+    background-color: var(--red-color);
+    opacity: 0.9;    
+}
+.info-elem{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.info-text{
+    font-family: var(--footer-font);
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.info-icon{
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+@media (max-width: 900px) {
+    .info-text{
+        font-size: 23px;
+    }
+}
+@media (max-width: 650px) {
+    .info-text{
+        font-size: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .info-text{
+        font-size: 18px;
+    }
 }

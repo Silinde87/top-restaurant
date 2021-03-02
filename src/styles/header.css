@@ -53,8 +53,9 @@
     margin-left: 10px;
     height: 150px;
     filter: drop-shadow(5px 5px 4px black);
+    z-index: 99;
 }
-@media (max-width: 750px) {
+@media (max-width: 900px) {
     #logo-header {
         display: none;
     }

@@ -33,7 +33,7 @@
 .description-menu-item{
     font-family: var(--footer-font);
     font-size: 13px;
-    margin-top: -35px;        
+    margin-top: -35px;
 }
 
 @media (min-width: 1920px){
